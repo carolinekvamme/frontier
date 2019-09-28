@@ -1,0 +1,42 @@
+body{
+  margin: 0px;
+  font-family: helvetica;
+}
+nav{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+nav a{
+  color: black;
+  text-decoration: none;
+  padding: 25px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+nav .active{
+  text-decoration: underline;
+}
+nav a:hover:not(.active){
+  text-decoration: underline;
+}
+.gridMain{
+  display: grid;
+  width: 90%;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  line-height: 1.5;
+}
+.gridMain img{
+  width: 100%;
+}
+.gridMain a{
+  text-decoration: none;
+  color: black;
+}
+figcaption{
+  text-align: center;
+  font-family: brandon-grotesque;
+  font-size: 16px;
+}

@@ -1,0 +1,31 @@
+body{
+  margin: 0px;
+  font-family: helvetica;
+}
+nav{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+nav a{
+  color: black;
+  text-decoration: none;
+  padding: 25px;
+}
+nav .active{
+  text-decoration: underline;
+}
+nav a:hover:not(.active){
+  text-decoration: underline;
+}
+main{
+  text-align: center;
+  text-decoration: none;
+}
+main a{
+  color: black;
+  line-height: 1.5;
+}
