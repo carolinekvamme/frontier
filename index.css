@@ -33,6 +33,9 @@ nav a:hover:not(.active){
   text-decoration: none;
   color: black;
 }
+figure{
+  margin: 5%;
+}
 figcaption{
   text-align: center;
   font-size: 1.2vw;
