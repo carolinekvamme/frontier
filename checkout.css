@@ -26,7 +26,6 @@ nav a:hover:not(.active){
   display: grid;
   margin: auto;
   grid-template-columns: 1fr 1fr;
-  width: 90%;
   line-height: 1.5;
   grid-gap: 1%;
 }
@@ -52,6 +51,9 @@ h1{
 }
 #plans{
   width: 100%;
+}
+figure{
+  margin: 5%;
 }
 figcaption{
   text-decoration: none;
